@@ -34,13 +34,13 @@ label::after {
 /* basic info */
 
 .basic-info {
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
 /* physical fitness */
 
 .physical-fitness {
-  padding: 0 5%;
+  /* padding: 0 5%; */
 }
 
 /* address section styles */
@@ -86,4 +86,10 @@ label::after {
 }
 .perm-addr input {
   float: left;
+}
+
+@media only screen and (max-width: 508px) {
+  label {
+    display: block;
+  }
 }
