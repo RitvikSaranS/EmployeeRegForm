@@ -1,0 +1,89 @@
+/* general styles */
+
+form {
+  padding: 0 1rem;
+}
+
+input {
+  margin: 10px 0;
+}
+
+label {
+  margin-right: 5px;
+}
+
+label::after {
+  content: ":";
+}
+
+/* heading */
+
+.form-header {
+  color: white;
+  background-color: #3a98b9;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* user type styles */
+
+.user-type {
+  text-align: center;
+}
+
+/* basic info */
+
+.basic-info {
+  padding: 0 10%;
+}
+
+/* physical fitness */
+
+.physical-fitness {
+  padding: 0 5%;
+}
+
+/* address section styles */
+
+.address-section {
+  padding: 0 8%;
+}
+
+.corr-addr {
+  width: 100%;
+  display: block;
+}
+
+.corr-addr div {
+  width: 100%;
+  display: inline-block;
+}
+
+.corr-addr label {
+  margin-top: 15px;
+  width: 30%;
+  float: left;
+}
+.corr-addr input {
+  float: left;
+}
+
+/* perm address */
+.perm-addr {
+  width: 100%;
+  display: block;
+}
+
+.perm-addr div {
+  width: 100%;
+  display: inline-block;
+}
+
+.perm-addr label {
+  margin-top: 15px;
+  width: 30%;
+  float: left;
+}
+.perm-addr input {
+  float: left;
+}
